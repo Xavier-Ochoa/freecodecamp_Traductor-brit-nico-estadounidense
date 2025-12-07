@@ -1,0 +1,34 @@
+Escribe las siguientes pruebas en tests/1_unit-tests.js:
+
+Traducir Mangoes are my favorite fruit.al inglés británico
+Traducir I ate yogurt for breakfast.al inglés británico
+Traducir We had a party at my friend's condo.al inglés británico
+Traducir Can you toss this in the trashcan for me?al inglés británico
+Traducir The parking lot was full.al inglés británico
+Traducir Like a high tech Rube Goldberg machine.al inglés británico
+Traducir To play hooky means to skip class or work.al inglés británico
+Traducir No Mr. Bond, I expect you to die.al inglés británico
+Traducir Dr. Grosh will see you now.al inglés británico
+Traducir Lunch is at 12:15 today.al inglés británico
+Traducir We watched the footie match for a while.al inglés americano
+Traducir Paracetamol takes up to an hour to work.al inglés americano
+Traducir First, caramelise the onions.al inglés americano
+Traducir I spent the bank holiday at the funfair.al inglés americano
+Traducir I had a bicky then went to the chippy.al inglés americano
+Traducir I've just got bits and bobs in my bum bag.al inglés americano
+Traducir The car boot sale at Boxted Airfield was called off.al inglés americano
+Traducir Have you met Mrs Kalyani?al inglés americano
+Traducir Prof Joyner of King's College, London.al inglés americano
+Traducir Tea time is usually around 4 or 4.30.al inglés americano
+Resaltar la traducción enMangoes are my favorite fruit.
+Resaltar la traducción enI ate yogurt for breakfast.
+Resaltar la traducción enWe watched the footie match for a while.
+Resaltar la traducción enParacetamol takes up to an hour to work.
+Escribe las siguientes pruebas en tests/2_functional-tests.js:
+
+Traducción con campos de texto y configuración regional: solicitud POST a/api/translate
+Traducción con texto y campo de configuración regional no válido: solicitud POST a/api/translate
+Traducción con campo de texto faltante: solicitud POST a/api/translate
+Traducción con campo de configuración regional faltante: solicitud POST a/api/translate
+Traducción con texto vacío: Solicitud POST a/api/translate
+Traducción con texto que no necesita traducción: solicitud POST a/api/translate
